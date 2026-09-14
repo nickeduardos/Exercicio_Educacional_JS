@@ -85,3 +85,32 @@ else {
 }
 
 // FIM EXERCICIO 03
+
+console.log ()
+console.log ()
+
+// INICIO EXERCICIO 04
+
+console.log ("==========EXERCICIO 04==========")
+console.log ()
+console.log ("Crie uma variável idade e escreva um if/else if/else que exiba:")
+console.log ("'Menor de idade' se idade for menor que 18")
+console.log ("'Maior de idade' se idade for entre 18 e 59")
+console.log ("'Idoso' se idade for 60 ou mais")
+// Teste sua lógica trocando o valor de idade pelo menos 3 vezes (uma para cada caso).
+
+console.log ()
+
+let idade = 18
+
+console.log ("idade definida na variavel -> " + idade)
+
+if (idade <= 17) {
+    console.log ("Menor de idade.")
+}   else if (idade >= 18 && idade <= 59) {
+    console.log ("Maior de idade.")
+}   else {
+    console.log ("Idoso.")
+}
+
+// FIM EXERCICIO 04
